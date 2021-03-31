@@ -9,7 +9,8 @@
     <title>Signin Template · Bootstrap v5.0</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
-
+    <link rel="stylesheet" href="https://unpkg.com/intro.js/minified/introjs.min.css" >
+    <script src="https://unpkg.com/intro.js/minified/intro.min.js"></script>
     
 
     <!-- Bootstrap core CSS -->
@@ -37,26 +38,26 @@
   </head>
   <body class="text-center">
     
-<main class="form-signin">
+<main class="form-signin" data-title="Welcome!" data-intro="Please enter your credentials below" data-position="top">
   <form>
     <img class="mb-4" src="/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
-    <div class="form-floating">
+    <div class="form-floating" data-intro="Please enter your Email address" data-position="left">
       <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
       <label for="floatingInput">Email address</label>
     </div>
-    <div class="form-floating">
+    <div class="form-floating" data-intro="Please enter your Password" data-position="left">
       <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
       <label for="floatingPassword">Password</label>
     </div>
 
-    <div class="checkbox mb-3">
+    <div class="checkbox mb-3" data-intro="Please tick the checkbox so we can remember you." data-position="left">
       <label>
         <input type="checkbox" value="remember-me"> Remember me
       </label>
     </div>
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+    <button class="w-100 btn btn-lg btn-primary" type="submit" data-intro="Click Sign-in" data-position="left">Sign in</button>
     <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
   </form>
 </main>
