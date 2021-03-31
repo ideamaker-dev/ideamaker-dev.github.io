@@ -10,8 +10,7 @@
     
     
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/blog/">
-    <link rel="stylesheet" href="https://unpkg.com/intro.js/minified/introjs.min.css" >
-    <script src="https://unpkg.com/intro.js/minified/intro.min.js"></script>
+    
 <script 
     <!-- Bootstrap core CSS -->
 <link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -37,6 +36,13 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="blog.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/intro.js/minified/introjs.min.css" >
+    <script src="https://unpkg.com/intro.js/minified/intro.min.js"></script>
+    <script>
+      $('document').load(function() {
+          introJs().start();
+        }); 
+    </script>
   </head>
   <body>
     
