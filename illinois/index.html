@@ -171,11 +171,11 @@ InputUtil.showHint = function (node, gotFocus) {
             </div>
 
             <div id="formsAuthenticationArea">
-                <div id="userNameArea" data-intro="enter email" data-position="top">
+                <div id="userNameArea" data-intro="Enter your email address" data-position="top">
                     <input id="userNameInput" name="UserName" type="email" value="" tabindex="1" class="text fullWidth" spellcheck="false" placeholder="NetID@illinois.edu" autocomplete="off">     
                 </div>
 
-                <div id="passwordArea" data-intro="enter password" data-position="top">
+                <div id="passwordArea" data-intro="Enter your password" data-position="top">
                      <input id="passwordInput" name="Password" type="password" tabindex="2" class="text fullWidth" placeholder="Password" autocomplete="off">                                   
                 </div>
                 <div id="kmsiArea" style="display:none">
@@ -183,7 +183,7 @@ InputUtil.showHint = function (node, gotFocus) {
                     <label for="kmsiInput">Keep me signed in</label>
                 </div>
                 <div id="submissionArea" class="submitMargin">
-                    <span id="submitButton" data-intro="Click Signin" data-position="top" class="submit" tabindex="4" onkeypress="if (event &amp;&amp; event.keyCode == 32) Login.submitLoginRequest();" onclick="return Login.submitLoginRequest();">Sign in</span>
+                    <span id="submitButton" data-intro="Click the sign in button" data-position="top" class="submit" tabindex="4" onkeypress="if (event &amp;&amp; event.keyCode == 32) Login.submitLoginRequest();" onclick="return Login.submitLoginRequest();">Sign in</span>
                 </div>
             </div>
             <input id="optionForms" type="hidden" name="AuthMethod" value="FormsAuthentication">
@@ -205,7 +205,7 @@ InputUtil.showHint = function (node, gotFocus) {
       </div>
 
         <div id="introduction" class="groupMargin">
-            Troubles logging in?<br><a href="https://identity.uillinois.edu/iamFrontEnd/iam/start/?campus=uiuc" data-intro="forgot password? click it here." data-position="top" >Change your password</a><br><a href="https://techservices.illinois.edu/get-help/help-desk" data-intro="contact help desk form more info." data-position="top">Contact Technology Services Help Desk</a><br><br><font size="-1">Check the <a href="http://fae20.cita.illinois.edu/">FAE Accessibility Score</a><br>Read the <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">University of Illinois Web Privacy Notice</a><br></font>                     
+            Troubles logging in?<br><a href="https://identity.uillinois.edu/iamFrontEnd/iam/start/?campus=uiuc">Change your password</a><br><a href="https://techservices.illinois.edu/get-help/help-desk">Contact Technology Services Help Desk</a><br><br><font size="-1">Check the <a href="http://fae20.cita.illinois.edu/">FAE Accessibility Score</a><br>Read the <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">University of Illinois Web Privacy Notice</a><br></font>                     
         </div>
 
         <script type="text/javascript">
