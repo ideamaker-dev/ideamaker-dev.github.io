@@ -165,7 +165,7 @@ InputUtil.showHint = function (node, gotFocus) {
     <div id="loginArea">        
         <div id="loginMessage" class="groupMargin">Please use your NetID or NetID@illinois.edu email address as your user name, and your Active Directory password to sign in.</div>
 
-        <form method="post" id="loginForm" autocomplete="off" novalidate="novalidate" onkeypress="if (event &amp;&amp; event.keyCode == 13) Login.submitLoginRequest();" action="https://sts.illinois.edu/adfs/ls/?client-request-id=8919bd02-6de7-46b9-9e14-149d9f0e55d6&amp;username=&amp;wa=wsignin1.0&amp;wtrealm=urn%3afederation%3aMicrosoftOnline&amp;wctx=estsredirect%3d2%26estsrequest%3drQIIAdNiNtQztFIxgAAjXRCpa5CWZqibnApiIYEiIS4Bpr2Snc9zd7rNExGZO58v9NosRp7MnJzMvPzMYr3UlNJVjPIZJSUFxVb6-vmlJTn5-dl6-Wlpmcmpesn5ufr55Yn6OxgZLzAyrmIyNzM2NzWyMDIxNzI3AEILY3O9tDQLI1MzI2Ndo0RjS12TxLQk3aTUZDPd5DQz00Sj5FQjgzTzW0z8_o6lJRlGICK_KLMq9RMTZ1p-UW58QX5xySzmeJfIEieXfMd0F8cgJxNj38Iox-KSgMLkwNSyiHxLI4NcX_M0L-_E0KoAX69kT4Nct5Jw_3TvpED39PgwIw_ddGevjPR4Q9_yvKokI9ec7GLjIk_jwtxSf8vKspIo3UDXVcxEhdUmZjagj3Pz804xs-UXpOZlplxgYXzFwmPAasXBwSXAL8GmwPCDhXERKzBM8zZbHGV_tsht3Qd1a9HnygynWPUjCoy0i_380v1ckzz8zdOdA3L18_JSXEpCtYPMLMJ9Lf1DLdNLM7KKK0uLbU2sDCewMU5gY9vFxsnBLMCgxOwcYPiCjfEDG2MHO8MuTkIxcotLxMjAyFDXwFjX2FDByNDK1MLKxDzqAjfjAV4GAA2">
+        <form method="post" id="loginForm" autocomplete="off" novalidate="novalidate" onkeypress="if (event &amp;&amp; event.keyCode == 13) Login.submitLoginRequest();" action="#">
             <div id="error" class="fieldMargin error smallText" style="display: none;">
                 <label id="errorText" for=""></label>
             </div>
@@ -190,7 +190,7 @@ InputUtil.showHint = function (node, gotFocus) {
         </form>
 
              <div id="authOptions">
-        <form id="options" method="post" action="https://sts.illinois.edu/adfs/ls/?client-request-id=8919bd02-6de7-46b9-9e14-149d9f0e55d6&amp;username=&amp;wa=wsignin1.0&amp;wtrealm=urn%3afederation%3aMicrosoftOnline&amp;wctx=estsredirect%3d2%26estsrequest%3drQIIAdNiNtQztFIxgAAjXRCpa5CWZqibnApiIYEiIS4Bpr2Snc9zd7rNExGZO58v9NosRp7MnJzMvPzMYr3UlNJVjPIZJSUFxVb6-vmlJTn5-dl6-Wlpmcmpesn5ufr55Yn6OxgZLzAyrmIyNzM2NzWyMDIxNzI3AEILY3O9tDQLI1MzI2Ndo0RjS12TxLQk3aTUZDPd5DQz00Sj5FQjgzTzW0z8_o6lJRlGICK_KLMq9RMTZ1p-UW58QX5xySzmeJfIEieXfMd0F8cgJxNj38Iox-KSgMLkwNSyiHxLI4NcX_M0L-_E0KoAX69kT4Nct5Jw_3TvpED39PgwIw_ddGevjPR4Q9_yvKokI9ec7GLjIk_jwtxSf8vKspIo3UDXVcxEhdUmZjagj3Pz804xs-UXpOZlplxgYXzFwmPAasXBwSXAL8GmwPCDhXERKzBM8zZbHGV_tsht3Qd1a9HnygynWPUjCoy0i_380v1ckzz8zdOdA3L18_JSXEpCtYPMLMJ9Lf1DLdNLM7KKK0uLbU2sDCewMU5gY9vFxsnBLMCgxOwcYPiCjfEDG2MHO8MuTkIxcotLxMjAyFDXwFjX2FDByNDK1MLKxDzqAjfjAV4GAA2">
+        <form id="options" method="post" action="#">
             <script type="text/javascript">
                 function SelectOption(option) {
                     var i = document.getElementById('optionSelection');
@@ -205,7 +205,7 @@ InputUtil.showHint = function (node, gotFocus) {
       </div>
 
         <div id="introduction" class="groupMargin">
-            Troubles logging in?<br><a href="https://identity.uillinois.edu/iamFrontEnd/iam/start/?campus=uiuc" data-intro="Forgot your password? Click here." data-position="top" >Change your password</a><br><a href="https://techservices.illinois.edu/get-help/help-desk" data-intro="Contact help desk for more info." data-position="top">Contact Technology Services Help Desk</a><br><br><font size="-1">Check the <a href="http://fae20.cita.illinois.edu/">FAE Accessibility Score</a><br>Read the <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">University of Illinois Web Privacy Notice</a><br></font>                     
+            Troubles logging in?<br><a href="#">Change your password</a><br><a href="#" >Contact Technology Services Help Desk</a><br><br><font size="-1">Check the <a href="#">FAE Accessibility Score</a><br>Read the <a href="#">University of Illinois Web Privacy Notice</a><br></font>                     
         </div>
 
         <script type="text/javascript">
